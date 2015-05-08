@@ -6,8 +6,7 @@ class TrailingString
 {
     static void Main(string[] args)
     {
-        string path = @"C:\Users\raj.shah\Desktop\numbers.txt";
-        using (StreamReader reader = File.OpenText(path))
+        using (StreamReader reader = File.OpenText(args[0]))
         while (!reader.EndOfStream)
         {
             string line = reader.ReadLine();
