@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-class Program
+class CountingPrimes
 {
     static void Main(string[] args)
     {
