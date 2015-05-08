@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-class Program
+class PrimeNumbers
 {
     static void Main(string[] args)
     {
