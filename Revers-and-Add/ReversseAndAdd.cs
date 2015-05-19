@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-class Program
+class ReversseAndAdd
 {
     static void Main(string[] args)
     {
